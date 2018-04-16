@@ -23,8 +23,8 @@
       "sizes": "512x512"
     }
   ],
-  "scope": "/PWAtest",
-  "start_url": "/PWAtest",
+  "scope": "/",
+  "start_url": "/",
   "chrome_related_applications": [
     {
       "platform": "web"
