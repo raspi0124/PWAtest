@@ -1,9 +1,13 @@
 <html>
 <head>
 <script>
-if ('serviceWorker' in navigator&&!window.cordova&&!coinUtil.isElectron()) {
-  navigator.serviceWorker.register('./dist/sw.js').then(()=>true).catch(()=>true);
-}
+        // この記述を追記
+        if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+                 .register('/service-worker.js') // ここはservice-worker.jsのパスを指定
+                 .then(function() { console.log('Service Worker Registered'); });
+        }
+
 </script>
  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
