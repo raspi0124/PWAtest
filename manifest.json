@@ -1,34 +1,28 @@
+# manifest.json
 {
-  "background_color": "#ffeb47",
+  "name": "PWAtest",
+  "short_name": "PWAtest",
+  "icons": [{
+      "src": "images/ico/apple-touch-icon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "images/ico/apple-touch-icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "images/ico/apple-touch-icon.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "images/ico/apple-touch-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "images/ico/apple-touch-icon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }],
+  "start_url": "/index.html",
   "display": "standalone",
-  "name": "PWAテスト",
-  "short_name": "PWAテスト",
-  "version": "com.raspi-diary.test",
-  "description": "PWA test",
-  "author": "raspi0124",
-  "icons": [
-    {
-      "src": "icons/192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "icons/144.png",
-      "type": "image/png",
-      "sizes": "144x144"
-    },
-    {
-      "src": "icons/512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "scope": "/",
-  "start_url": "/",
-  "chrome_related_applications": [
-    {
-      "platform": "web"
-    }
-  ],
-  "theme_color": "#ffeb47"
 }
